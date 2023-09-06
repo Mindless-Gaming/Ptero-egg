@@ -3,4 +3,4 @@ if [[ -f "./installed" ]]; then
 
 else
   apt update
-  
+  touch installed
